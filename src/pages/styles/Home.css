@@ -6,7 +6,6 @@
 
   color: #ffffff;
 
-  display: flex;
   align-items: center;
 }
 
@@ -17,7 +16,14 @@
   align-items: center;
 }
 
+/* .Home__img{
+  min-height:10rem;
+} */
+
 @media screen and (min-width: 768px) {
+  .Home{
+    display: flex;
+  }
   .Home__col {
     align-items: flex-start;
   }
